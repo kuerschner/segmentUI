@@ -1,0 +1,57 @@
+.titleBar {
+    background-color: #47b28d;
+    padding: 1rem;
+    padding-right: 4rem;
+}
+
+.titleBar button {
+    float: right;
+    margin-top: 1rem;
+}
+
+.titleInput {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    min-width: 50%;
+    margin-right: 1rem;
+    
+}
+
+.titleInput::placeholder {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.titleInput:focus {
+    border: none;
+    background-color: #6bc1a3;
+}
+
+.authorText {
+    padding-left: 1rem;
+    margin-top: 0;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 0.75rem 2rem;
+    margin: 0.5rem;
+    font-size: 16px;
+}
+
+.btnOutline {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btnWhite {
+    color: #4c4f53;
+    margin-right: 0;
+    border: none;
+    background-color: #fff;
+}

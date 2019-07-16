@@ -1,0 +1,23 @@
+.sideBar {
+    grid-area: nav;
+    background-color: #2e343d;
+    color: #fff;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+}
+
+.menuItem {
+    padding: 2rem;
+}
+
+.active {
+    background-color: #4c4f53;
+    border-left: 2px solid #fff;
+}
+
+.sectionIcon {
+    margin-right: 1rem;
+}

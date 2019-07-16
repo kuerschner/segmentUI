@@ -1,0 +1,31 @@
+h2 {
+    color: #5d6064;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+p {
+   color: #5d6064;
+}
+
+.Main {
+    grid-area: main;
+    background-color: #d5d8de;
+}
+
+.cardArea {
+    padding:1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #5d6064;
+    padding: 1rem;
+    min-height: 10rem;
+}
+
+.instructionCard {
+    width: 30%;
+}
